@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&display=swap');
+
+.main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 40px 0;
+}
+
+.table{
+    border: 2px solid #888;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.table.edit{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    flex-direction: column;
+}
+
+.normal{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: light;
+}
+
+.bold{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info{
+    color:aliceblue;
+}
+
+.header{
+    background-color: cadetblue;
+    justify-content: center;
+    padding: 10px 20px;
+    min-width: 120px;
+}
+
+td a{
+    color: #5f7ea0;         
+    text-decoration: none;
+}
+
+td.button{
+    padding: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #a0615f;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+td.button a {
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;          
+    text-decoration: none; 
+    display: block;       
+    width: 100%;
+    height: 100%;
+}
+
+.button-group{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.modal-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+dialog menu {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+dialog,
+.modal-content {
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.confirm{
+    font-family: "Kanit", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #5aac5a;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.add{
+    font-family: "Kanit", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #a79a50;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.delete{
+    font-family: "Kanit", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #a0615f;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.back{
+    font-family: "Kanit", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #929292;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+    min-width: 120px;
+    max-width: 120px;
+    outline: none;
+}
+
